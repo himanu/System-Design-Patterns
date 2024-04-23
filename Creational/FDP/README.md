@@ -9,12 +9,12 @@
 Example: In case of Uber, ride can be of three type bike_ride, car_ride, luxury_ride.
 
 #### Without FDP
-Without FDP, client would decide conditionally which ride object to create.
-Client code is closely coupled with different type of rides.
-If in future, uber introduces a new type of ride then the client code needs update. 
-Such approach is prone to error due to coupling.
-The solution is to not create objects in the client class.
-Use a another class for creating objects aka Factory Class.
+1. Without FDP, client would decide conditionally which ride object to create.
+2. Client code is closely coupled with different type of rides.
+3. If in future, uber introduces a new type of ride then the client code needs update. 
+4. Such approach is prone to error due to coupling.
+5. The solution is to not create objects in the client class.
+6. Use a another class for creating objects aka Factory Class.
 
 
  

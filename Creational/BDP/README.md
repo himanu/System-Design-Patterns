@@ -14,3 +14,6 @@ To solve this we use BDP.
 1. Builder Class: It contains different methods to configure the class object.
 2. Director Class: It has methods which invokes Builder class methods in some sequence. It is generally uses to store instructions to build commonly needed object. 
 Director class has a reference to builder class object.
+
+## UML Diagram
+![alt Builder_Design_Pattern](<Screenshot 2024-04-26 at 10.11.01 PM.png>)

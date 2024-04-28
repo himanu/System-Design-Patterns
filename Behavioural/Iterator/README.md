@@ -1,6 +1,8 @@
 # Iterator Design Pattern
 It allows clients to traverse elements of a collection using different traversal algorithm.
 
+[**Above Example Guide**](#example-code)
+
 ## What Problem it solves?
 1. Consider a collection class representing a binary tree.
 2. Client wants to traverse the Binary Tree.
@@ -24,3 +26,11 @@ It allows clients to traverse elements of a collection using different traversal
 
 ### UML Diagram
 ![alt text](<Screenshot 2024-04-28 at 4.18.47 PM.png>)
+
+## Example Code
+Example have below files for each type of class.
+1. `Aggregate.java` representing `IterableCollection` interface in the above UML Diagram Image.
+2. `MyList.java` representing `ConcreteCollection` class.
+3. `Iterator.java` representing `Iterator` interface.
+4. `ListIterator.java` representing `ConcreteIterator` class.
+5. `Application.java` representing `Client` class.

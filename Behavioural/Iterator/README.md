@@ -28,7 +28,7 @@ It allows clients to traverse elements of a collection using different traversal
 ![alt text](<Screenshot 2024-04-28 at 4.18.47 PM.png>)
 
 ## Example Code
-Example have below files for each type of class.
+Above Example have below files for each type of class.
 1. `Aggregate.java` representing `IterableCollection` interface in the above UML Diagram Image.
 2. Similarly `MyList.java` representing `ConcreteCollection` class.
 3. Similarly `Iterator.java` representing `Iterator` interface.

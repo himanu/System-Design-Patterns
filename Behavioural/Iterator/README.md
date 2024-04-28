@@ -21,3 +21,6 @@ It allows clients to traverse elements of a collection using different traversal
 2. **Iterator Interface**: It is the interface which each iterator class implements. It defines basics method like `hasMore()`, `getNext()`  which each iterator class implements.
 3. **Concreate Iterator Classes**: These classes implements the Iterator Interface and has collection traversal logic. They stores a collection class object.
 4. **Client Class**: Contains client code to use pattern.
+
+### UML Diagram
+![alt text](<Screenshot 2024-04-28 at 4.18.47 PM.png>)

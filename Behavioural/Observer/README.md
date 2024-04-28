@@ -18,7 +18,7 @@ It is used when we need to publish event to subscriber classes.
 ## Class Structure
 
 ### Different Classes/Interfaces
-1. **Publisher Class**: Apart from its buisness logic, it stores list of subscribers and has a method to notify them.
+1. **Publisher Class**: Apart from its buisness logic, it stores list of subscribers and has a method to notify them. It should have method to subscribe and unsubscribe.
 2. **Subscriber Interface**: It is the interface implemented by different subscriber classes. In case we have only one type of subscriber then there is no need of it. Mostly it has a method to allow publisher class notify it above new events.
 3. **Concreate Subscriber Classes**: Concrete implementations of the Subscriber Interface.
 4. **Client Class**: Contains client code to use pattern.

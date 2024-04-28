@@ -14,7 +14,7 @@
 3. Structural.
 
 **Each type have its own patterns**
-
+Please click folders to know more
 
 
 

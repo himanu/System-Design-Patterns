@@ -30,7 +30,7 @@ It allows clients to traverse elements of a collection using different traversal
 ## Example Code
 Example have below files for each type of class.
 1. `Aggregate.java` representing `IterableCollection` interface in the above UML Diagram Image.
-2. `MyList.java` representing `ConcreteCollection` class.
-3. `Iterator.java` representing `Iterator` interface.
-4. `ListIterator.java` representing `ConcreteIterator` class.
-5. `Application.java` representing `Client` class.
+2. Similarly `MyList.java` representing `ConcreteCollection` class.
+3. Similarly `Iterator.java` representing `Iterator` interface.
+4. Similarly `ListIterator.java` representing `ConcreteIterator` class.
+5. Similarly `Application.java` representing `Client` class.

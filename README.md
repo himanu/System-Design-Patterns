@@ -22,6 +22,8 @@
    - [Adapter](/Structural/Adapter/) 
    - [Facade](/Structural/Facade/) 
 
+**Note** Repository is in progress, so I have listed only those in the repo.
+
 
 
 

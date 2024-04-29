@@ -10,12 +10,18 @@
 
 ## Types of System Design Patterns
 1. [Creational](/Creational/).
-   - [Abstract Factory Design Pattern](/Creational/AFDP/README.md)
-2. Behavioural.
-3. Structural.
+   - [Abstract Factory Design Pattern](/Creational/AFDP)
+   - [Builder Design Pattern](/Creational/BDP/)
+   - [Factory Method Design Pattern](/Creational/FDP/)
+   - [Singleton Design Pattern](/Creational/Singleton/)
+2. [Behavioural](/Behavioural/).
+   - [Iterator Design Pattern](/Behavioural/Iterator/) 
+   - [Observer Design Pattern](/Behavioural/Observer/) 
+   - [Strategy Design Pattern](/Behavioural/Strategy/) 
+3. [Structural](/Structural/).
+   - [Adapter](/Structural/Adapter/) 
+   - [Facade](/Structural/Facade/) 
 
-**Each type has its own patterns**
-Please click folders to learn more
 
 
 

@@ -30,8 +30,9 @@
 
 
 ## Example Code
-The example is of a Home Builder application. `App.java` wants to create homes with different settings.
-`Builder.java` provides methods to create `Home` objects in multiple steps.
+The example code is for a Pizza factory. It has a Pizza interface and classes for Onion Pizza and Paneer Pizza.
+PizzaFactory is the interface to create a Pizza object.
+The ConcretePizzaFactory class is responsible for creating a Pizza object. It can create OnionPizza or PaneerPizza.
 
 
  

@@ -36,3 +36,5 @@
 2. Without the Facade class, the client needs to handle all the complexity of initializing and managing framework class objects.
 3. But in the above example, we are using a Facade class. It hides all complexity from the client.
 4. The client just called a Facade class method for video conversion. 
+
+**Note**: You don't need to understand files inside the `Framework` folder, just focus on the concept.

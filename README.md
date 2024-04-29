@@ -14,10 +14,10 @@
    - [Builder Design Pattern](/Creational/BDP/)
    - [Factory Method Design Pattern](/Creational/FDP/)
    - [Singleton Design Pattern](/Creational/Singleton/)
-2. [Behavioural](/Behavioural/).
-   - [Iterator Design Pattern](/Behavioural/Iterator/) 
-   - [Observer Design Pattern](/Behavioural/Observer/) 
-   - [Strategy Design Pattern](/Behavioural/Strategy/) 
+2. [Behavioral](/Behavioral/).
+   - [Iterator Design Pattern](/Behavioral/Iterator/) 
+   - [Observer Design Pattern](/Behavioral/Observer/) 
+   - [Strategy Design Pattern](/Behavioral/Strategy/) 
 3. [Structural](/Structural/).
    - [Adapter](/Structural/Adapter/) 
    - [Facade](/Structural/Facade/) 

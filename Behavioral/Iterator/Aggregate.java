@@ -1,4 +1,4 @@
-package Behavioural.Iterator;
+package Behavioral.Iterator;
 
 public interface Aggregate {
    Iterator getIterator(); 

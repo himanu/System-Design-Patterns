@@ -1,4 +1,4 @@
-package Behavioural.Iterator;
+package Behavioral.Iterator;
 
 public class ListIterator implements Iterator {
     private MyList collection;

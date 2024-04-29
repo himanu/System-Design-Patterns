@@ -1,4 +1,4 @@
-package Behavioural.Strategy;
+package Behavioral.Strategy;
 
 public class AdditionStrategy implements Strategy{
     public int execute(int a, int b) {

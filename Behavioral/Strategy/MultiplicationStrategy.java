@@ -1,4 +1,4 @@
-package Behavioural.Strategy;
+package Behavioral.Strategy;
 
 public class MultiplicationStrategy implements Strategy {
     public int execute(int a, int b) {

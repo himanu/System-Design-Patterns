@@ -1,4 +1,4 @@
-package Behavioural.Observer;
+package Behavioral.Observer;
 
 public class Editor {
     public EditorEventManager notificationManager;

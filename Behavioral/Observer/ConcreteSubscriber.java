@@ -1,4 +1,4 @@
-package Behavioural.Observer;
+package Behavioral.Observer;
 
 public class ConcreteSubscriber implements Subscribers{
     String name;

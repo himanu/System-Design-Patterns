@@ -1,4 +1,4 @@
-package Behavioural.Observer;
+package Behavioral.Observer;
 
 public class Application {
     public static void main(String[] args) {

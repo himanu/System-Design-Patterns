@@ -1,4 +1,4 @@
-package Behavioural.Strategy;
+package Behavioral.Strategy;
 
 public class Context {
     private Strategy strategy;

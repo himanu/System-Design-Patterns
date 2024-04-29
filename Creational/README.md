@@ -4,9 +4,9 @@
 
 **Note** The above description may go over the head, but once you understand patterns in this category, it would make sense.
 
-## Different types of Creational Design Patterns
-1. Abstract Factory Design Pattern
-2. Builder Design Pattern
-3. Factory Method Design Pattern
-4. Singleton Design Pattern
+## Types
+1. [Abstract Factory Design Pattern](./AFDP/)
+2. [Builder Design Pattern](./BDP/)
+3. [Factory Method Design Pattern](./FDP/)
+4. [Singleton Design Pattern](./Singleton/)
 5. Prototype Design Pattern

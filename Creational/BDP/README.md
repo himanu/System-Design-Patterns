@@ -9,7 +9,7 @@ This pattern helps in creating complex objects in multiple steps.
 3. Another way is to define subclasses for each type of car. This approach is also not good if the Application wants more control over car production.
 
 ## Solution
-1. The Pattern says to have a separate class (aka Builder class) with multiple methods to customize the object creation logic.
+1. The Pattern says to have a separate class (aka Builder class) with **multiple methods to customize the object creation logic**.
 2. This pattern doesn't need a parameters-heavy constructor or subclasses for each object type.
 
 ## Class Structure

@@ -1,8 +1,8 @@
 package Creational.FDP;
 
 /**
- * Product
+ * Pizza
  */
-public interface Product {
+public interface Pizza {
     void getProductName();
 }

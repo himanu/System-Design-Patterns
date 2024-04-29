@@ -1,22 +1,37 @@
-# Factory Design Pattern
+# Factory Method Design Pattern
 1. It is a creational design pattern
-2. Factory class used to create objects of similar classes
+2. It is used when we have a bunch of classes of the same type and we need to create an object of one of them using some logic.
 
-## Use Cases
-1. When we have multiple classes of similar type then we can use FDP.
+[**Above Example Guide**](#example-code)
 
-## Example
-Example: In case of Uber, ride can be of three type bike_ride, car_ride, luxury_ride.
+## What Problem does it solve?
+1. Consider an Application for a Piza Restaurant.
+2. The Application would have a Pizza class and various subclasses for each Pizza type like ChilliPiza, PaneerPiza, CornPizza etc.
+3. Right now, the Application uses some logic to decide the Pizza type to be created. 
+4. If the application needs to create the Pizza in another class, we need to repeat the logic in that class also.
+5. This approach is error-prone due to duplication of the logic.
 
-### Without FDP
-1. Without FDP, client would decide conditionally which ride object to create.
-2. Client code is closely coupled with different type of rides.
-3. If in future, uber introduces a new type of ride then the client code needs update. 
-4. Such approach is prone to error due to coupling.
-5. The solution is to not create objects in the client class.
-6. Use a another class for creating objects aka Factory Class.
+## Solution
+1. This pattern suggests this Pizza type decision logic to a separate class also known as Factory Class.
+2. The Factory class must provide a method to create a Pizza. The type of Pizza created would depend on the logic of the method.
+3. To make the application flexible to use other logic also, we can define an Interface for Factory Classes. This interface would have the method signature to create a Pizza.
 
-## UML Diagram
-![alt text](<Screenshot 2024-04-26 at 9.51.12 PM.png>)
+
+## Class Structure
+
+### Different Classes/Interfaces
+1. **Concrete Product Classes**: Classes for Products the application wants to create. Foreg: ChilliPizza, MushroomPizza etc.
+2. **Product Interface**:  Interface of all Product classes.
+3. **Factory Classes**: These classes create a Product using some logic. Each Factory class has a different logic to decide which product to create. 
+4. **Factory Interface**: Interface for all Factory Classes
+3. **Client Class**: The client class.
+
+### UML Diagram
+
+
+## Example Code
+The example is of a Home Builder application. `App.java` wants to create homes with different settings.
+`Builder.java` provides methods to create `Home` objects in multiple steps.
+
 
  

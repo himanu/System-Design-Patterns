@@ -6,8 +6,9 @@
 ## What Problem does it solve?
 1. Consider an example of data analytic software.
 2. The Software gets XML response from an external API.
-3. To show data analysis (charts, graphs) the application is using a third-party library.
+3. To show data analysis (charts, graphs) the application likes to use a third-party library.
 4. The third-party library only accepts JSON as input. However, the software has XML data.
+5. Due to this incompatibility between XML and JSON, our software can't use the third-party library directly.
 
 ## Solution
 1. The Pattern solves the above problem by defining a class (Adapter class) that converts the XML data to JSON and uses the third-party library for data analysis.

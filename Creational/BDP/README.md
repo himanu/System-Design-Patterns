@@ -6,7 +6,7 @@ This pattern helps in creating complex objects in multiple steps.
 ## What Problem does it solve?
 1. Consider a Car Class. The Application wants to produce cars with different features like some with a metallic body, some with a strong engine, some with two doors etc.
 2. One way is to use the constructor parameters to control car features. This approach is not scalable if the number of parameters needed for car customization is very large.
-3. Another way is to define subclasses for each type of car. This approach is also not good if the Application wants more control over car production. Otherwise, for each new type we would need to add a new subclass.
+3. Another way is to define subclasses for each type of car. This approach is also not good if the Application wants more control over car production. Otherwise, for each new type, we would need to add a new subclass.
 
 ## Solution
 1. The Pattern says to have a separate class (aka Builder class) with **multiple methods to customize the object creation logic**.

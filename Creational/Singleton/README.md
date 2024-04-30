@@ -7,10 +7,13 @@ It is used when we want to create only one instance of a class.
 1. Consider a Database Connection Class. Its main purpose is to set up a connection to DB, run Queries and return results.
 2. Ask yourself, How many objects of this class does our application need? 
 3. Should the application create a new object for each DB Query?
-4. Creating an object for each db call is not a good approach. Since it takes time and resources.
+4. Creating a new object for each db call is not a good approach. Since it takes time and resources.
+5. So we need a way to allow only one instance of the database class.
 
 ## Solution
 1. To restrict the number of objects of a class to 1, we use Singleton Design Pattern.
+2. We make the constructor of our Singleton class (Database in this case) private so that no one can use `new` to create objects.
+3. We define a `static` method on the Singleton class that would create an instance only the first time and return the previously created instance in future calls.
 
 ## Class Structure
 

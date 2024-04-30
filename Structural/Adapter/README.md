@@ -16,7 +16,7 @@
 ## Class Structure
 
 ### Different Classes/Interfaces
-1. **Client Class**: The Client class contains the buisness logic.
+1. **Client Class**: The Client class contains the business logic.
 2. **Client Interface**: It describes a protocol that other classes must follow to be able to collaborate with the client class
 3. **Service Class**: The Service is some useful class (usually 3rd-party or legacy). The client can’t use this class directly because it has an incompatible interface.
 4. **Adapter Class**: The Adapter class acts as a mediator between the client and service object. It implements the client interface and wraps the service object, translating client calls into a format that the service object can understand.

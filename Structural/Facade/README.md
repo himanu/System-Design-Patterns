@@ -6,7 +6,7 @@
 
 ## Problem
 1. Imagine our client code uses a library. It is initializing objects of the library, managing them and calling their methods in a particular order.
-2. The client class should have buisness logic, but right now it majorly contains library usage code.
+2. The client class should have business logic, but right now it majorly contains library usage code.
 3. Also, for any new update in the library, the client class also needs an update.
 4. This class design is not scalable.
 
@@ -25,7 +25,7 @@
 
 ### Different Classes/Interfaces
 1. **Facade Class**: It initializes, manages subsystem objects and provides useful methods for the client.
-2. **Client Class**: It contains buisness logic and uses the Facade class to use library/subsystem.
+2. **Client Class**: It contains business logic and uses the Facade class to use library/subsystem.
 3. **Subsystem Classes**: These are set of classes of the subsystem/library.
 
 ### UML Diagram

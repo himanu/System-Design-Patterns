@@ -1,5 +1,5 @@
 package Behavioral.Iterator;
 
-public interface Aggregate {
+public interface IterableCollection {
    Iterator getIterator(); 
 }

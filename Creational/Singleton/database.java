@@ -16,7 +16,7 @@ public class database {
         return databaseObj;
     }
 
-    /** each singleton class should have some buisness logic */
+    /** each singleton class should have some business logic */
     void runQuery(String sqlString) {
         System.out.println("Running sql query " + sqlString);
     }

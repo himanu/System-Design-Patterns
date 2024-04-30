@@ -2,10 +2,11 @@ package Behavioral.Iterator;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyList implements Aggregate {
+public class MyList implements IterableCollection {
     private List<String> list = new ArrayList<>();
 
     public Iterator getIterator() {
+        /** passes <>this</> to the iterator */
         return new ListIterator(this);
     }
 

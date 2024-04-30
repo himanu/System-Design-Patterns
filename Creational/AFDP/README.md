@@ -1,23 +1,23 @@
 # Abstract Factory Design Pattern
 1. It is used when we need to create a family of objects.
-2. One example of a family of objects is a family of GUI Components. The GUI Component family contains a cursor, button, textbox etc. 
+2. One example of a family of objects is a family of GUI Components. The GUI Component family contains a cursor, button, textbox etc. Objects in a family work together to accomplish some task. 
 3. Objects in each family are compatible with each other.
-4. **Note** These related classes don't need to have a common interface or class.
+4. **Note** Objects in a family don't need a common interface/parent.
 
 [**Above Example Guide**](#example-code)
 
 ### Example GUI Components
-1. GUI components are like button, cursor etc.
-2. Now mac button is only compatible with a Mac cursor. Similarly for Windows and Linux.
-3. So when we create a mac button then we only want to create a mac cursor.
-4. **The family type is decided when we start our application, this info is mainly stored in environment variables**
+1. GUI components are like buttons, cursors, textboxes etc.
+2. A Mac button is only compatible with a Mac cursor. The Same applies to other OS.
+3. So when we create a Mac button then we only want to create a Mac cursor.
+4. **The family type (either Mac or Windows) is decided when we start our application, this info is mainly stored in environment variables**
 
 ## What Problem does it solve?
 1. Consider a GUI Application. It has multiple classes like Button, Cursor, Checkbox TextBox etc.
-2. Each GUI component classes can have different version like one for Windows, other for Linux etc.
-3. At a time, our application would like to have only one version of the components.
-4. Without this pattern, the application would use conditions to create a specific version of the component. Our whole application would have such conditions.
-5. This approach is prone to errors and not scalable.
+2. Each GUI component class can have a different version like one for Windows, the other for Linux etc.
+3. At a time, our application would like to have only one version of all the components.
+4. Without this pattern, the application would use conditions to create a specific version of the component. Wherever we need a specific version component, there would be these conditions.
+5. This approach is prone to errors and not scalable. Because of repetition of conditions.
 
 Abstract Factory Design Pattern solves this problem.
 
@@ -27,6 +27,8 @@ Abstract Factory Design Pattern solves this problem.
 3. Each Factory class will be responsible for creating all GUI components of a version.
 4. The number of Factory classes is equal to the number of versions of GUI components.
 5. These Factory classes would have an Interface so that the Client doesn't couple to concrete Factory classes.
+6. For the above example, there would be two factory classes, one would create GUI components for Mac and the other for Windows.
+7. The factory type (Windows or Mac) is decided at the start of the application using environment variables config.
 
 
 ## Class Structure
